@@ -1,0 +1,47 @@
+table {
+  font-family: sans-serif;
+  margin: 20px;
+  border-collapse: collapse;
+}
+caption {
+  border: 1px solid black;
+  border-bottom: 0;
+  padding: 20px 50px;
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+tbody tr {
+  border: 1px solid black;
+}
+.month {
+  margin: 0px;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 4px 6px;
+  text-align: center;
+  font-size: 14px;
+}
+th {
+  font-weight: bold;
+  padding: 5px 0;
+}
+.weekend,
+.first-day {
+  color: red;
+}
+
+.last-day {
+  border: 1px solid black;
+}
+
+.last-week {
+  border: 1px solid black;
+}
+
+.void {
+  border-left: 0;
+  border-right: 0;
+}
