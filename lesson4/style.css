@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+form {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 500px;
+}
+fieldset {
+  border: none;
+}
+span {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+label {
+  display: block;
+  margin-bottom: 20px;
+}
+input,
+textarea {
+  display: block;
+  border-radius: 3px;
+  border: 1px solid black;
+  padding: 5px;
+  width: 300px;
+  resize: vertical;
+  max-height: 200px;
+}
+input::placeholder,
+textarea::placeholder {
+  font-family: Arial, sans-serif;
+  color: #666;
+  opacity: 1;
+}
+textarea {
+  min-height: 30px;
+}
+.confirm {
+  display: flex;
+  padding-left: 0;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 0;
+}
+.confirm input {
+  margin: 0;
+  max-width: 10px;
+  cursor: pointer;
+}
+.confirm span {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+button {
+  cursor: pointer;
+  border-radius: 2px;
+}
